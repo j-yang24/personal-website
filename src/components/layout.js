@@ -34,6 +34,11 @@ const Layout = ({ pageTitle, children, showTitle = true }) => {
               about
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/blog" className={navLinkText}>
+              blog
+            </Link>
+          </li>
         </ul>
       </nav>
       {showTitle && <header className={siteTitle}>{data.site.siteMetadata.title}</header>}
