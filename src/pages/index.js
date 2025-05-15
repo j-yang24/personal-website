@@ -6,10 +6,11 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="a blog by Johnson Yang">
-      <p>
+      
+      <p align="justify">
         I was born in Manhattan and spent my early childhood with my grandparents. 
-        At seven, I moved to Emmaus to live with my parents. 
-        After high school, I went to the University of Pittsburgh to study civil engineering.
+        At seven, I moved to Emmaus to live with my parents, where I helped out in the family restaurant after school.
+        After high school, I attended the University of Pittsburgh to study civil engineering.
         I now reside in Pittsburgh.
       </p>
       <BlackBarDivider />

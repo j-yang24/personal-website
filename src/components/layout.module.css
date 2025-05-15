@@ -11,7 +11,7 @@
 
 .container {
   margin: auto;
-  max-width: 900px;
+  max-width: 55rem;
   font-family: sans-serif;
 }
 
@@ -28,13 +28,14 @@
 
 .nav-links {
   font-size: 1.2rem;
+  margin-bottom: 0rem;
   display: flex;
   list-style: none;
   padding: 0;
 }
 
 .nav-link-item {
-  padding-right: 2rem;
+  padding-left: 1.5rem;
 }
 
 .nav-link-text {
