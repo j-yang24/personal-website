@@ -1,11 +1,13 @@
+
 .site-title {
   margin-top: 0rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: black;
   font-weight: 700;
   display: flex;
   justify-content: left; 
 }
+
 
 .container {
   margin: auto;
@@ -13,12 +15,13 @@
   font-family: sans-serif;
 }
 
+
 .heading {
   color: gray;
-  margin-top: 2rem;
   font-weight: 500;
   font-size: 1.5rem;
   margin: 0rem 0;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: left;
 }
@@ -47,5 +50,4 @@
 nav {
   display: flex;
   justify-content: flex-end; /* Align to the right */
-  
 }

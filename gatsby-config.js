@@ -5,12 +5,11 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `home`,
-        path: `${__dirname}/`,
+        name: `blog`,
+        path: `${__dirname}/blog/`,
       },
     },
     "gatsby-plugin-mdx",
