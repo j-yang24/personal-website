@@ -14,6 +14,7 @@ const IndexPage = () => {
         I now reside in Pittsburgh.
       </p>
       <BlackBarDivider />
+      <footer align = "center">&#169; 2025 Johnson Yang</footer>
     </Layout>
   )
 }
