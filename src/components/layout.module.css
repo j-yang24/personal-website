@@ -12,7 +12,7 @@
 .container {
   margin: auto;
   max-width: 55rem;
-  font-family: sans-serif;
+  font-family: Sans-serif;
 }
 
 
@@ -51,4 +51,19 @@
 nav {
   display: flex;
   justify-content: flex-end; /* Align to the right */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  background-color: blue;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
