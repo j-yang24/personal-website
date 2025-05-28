@@ -2,15 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import BlackBarDivider from '../components/BlackBarDivider'
 import Seo from '../components/seo'
-
-const blogPosts = [
-  { title: 'Post 1', summary: 'Summary of blog post 1.' },
-  { title: 'Post 2', summary: 'Summary of blog post 2.' },
-  { title: 'Post 3', summary: 'Summary of blog post 3.' },
-  { title: 'Post 4', summary: 'Summary of blog post 4.' },
-  { title: 'Post 5', summary: 'Summary of blog post 5.' },
-  { title: 'Post 6', summary: 'Summary of blog post 6.' },
-]
+import BlogGrid from '../components/BlogGrid';
 
 
 const IndexPage = () => {
@@ -25,14 +17,7 @@ const IndexPage = () => {
       </p>
       <BlackBarDivider />
 
-      <div className="grid-container">
-        {blogPosts.map((post, index) => (
-          <div className="blog-card" key={index}>
-            <h3>{post.title}</h3>
-            <p>{post.summary}</p>
-          </div>
-        ))}
-      </div>
+      <BlogGrid />
 
       <BlackBarDivider />
       <footer align="center">&#169; 2025 Johnson Yang</footer>

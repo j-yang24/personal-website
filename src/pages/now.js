@@ -15,6 +15,7 @@ const NowPage = () => {
         <p><i>Last updated on May 31st, 2025.</i></p>
       </div>
     </Layout>
+    
   )
 }
 
