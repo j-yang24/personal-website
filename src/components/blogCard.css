@@ -3,13 +3,16 @@ body{
 }
 
 .blog-grid{
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .blog-container{
-    width: 33.3%;
+    width: 30%;
+    margin-bottom: 30px;
     margin-right: 10px;
 }
 
@@ -30,7 +33,8 @@ body{
 
 .blog-image {
     width: 100%;
-    object-fit: contain;
+    height: 200px; /* or adjust to your preferred height */
+    object-fit: cover;
 }
 
 .blog-header{

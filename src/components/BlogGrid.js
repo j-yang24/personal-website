@@ -1,28 +1,29 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import worldImage from '../images/world.jpg'
-import rianoImage from '../images/riano2.jpg'
+import worldImage from '../images/riano2.jpg'
+import bridgeImage from '../images/manhattan-bridge.jpg'
+import trainImage from '../images/southwest-train.jpg'
 import "./blogCard.css";
 
 const blogPosts = [
     {
         imageSrc: worldImage,
-        title: "Blog Post 0",
-        summary: "An introduction to my blog",
-        date: "May 31st, 2025",
+        title: "Death isn't the only goodbye in this life",
+        summary: "A reflection on my college experience",
+        date: "August 20th, 2025",
     },
     {
-        imageSrc: rianoImage,
-        title: "Death isn't the only goodbye in this life",
-        summary: "College reflection",
-        date: "May 28st, 2025",
+        imageSrc: trainImage,
+        title: "West by Southwest",
+        summary: "Traveling to San Franscisco by Train",
+        date: "June 16th, 2025",
     },
 
     {
-        imageSrc: rianoImage,
-        title: "Test blog 2",
-        summary: "hisssssssssss",
-        date: "June 31st, 2025",
+        imageSrc: bridgeImage,
+        title: "Blog Post 0",
+        summary: "An introduction to my blog",
+        date: "May 31st, 2025",
     },
 ];
 
