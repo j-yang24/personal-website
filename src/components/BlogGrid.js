@@ -1,13 +1,13 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import worldImage from '../images/riano2.jpg'
+import cathyImage from '../images/cathy.jpg'
 import bridgeImage from '../images/manhattan-bridge.jpg'
 import trainImage from '../images/southwest-train.jpg'
 import "./blogCard.css";
 
 const blogPosts = [
     {
-        imageSrc: worldImage,
+        imageSrc: cathyImage,
         title: "Death isn't the only goodbye in this life",
         summary: "A reflection on my college experience",
         date: "August 20th, 2025",

@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import BlackBarDivider from '../components/BlackBarDivider'
 import Seo from '../components/seo'
 import BlogGrid from '../components/BlogGrid';
+import IconLinks from '../components/IconLinks';
 
 
 const IndexPage = () => {
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <BlogGrid />
 
       <BlackBarDivider />
+      <IconLinks />
       <footer align="center">&#169; 2025 Johnson Yang</footer>
     </Layout>
   )

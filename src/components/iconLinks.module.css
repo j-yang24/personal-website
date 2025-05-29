@@ -1,0 +1,29 @@
+.iconButton {
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.buttonsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconButton:hover {
+  opacity: 0.8;
+}
+
+.iconButton:active {
+  opacity: 0.5;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(30%) saturate(100%);
+}
