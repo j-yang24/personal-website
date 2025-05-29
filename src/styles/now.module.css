@@ -1,0 +1,27 @@
+.paragraph {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.update {
+  font-style: italic;
+  color: black;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: underline;          
+  text-decoration-thickness: 2px;      
+  text-underline-offset: 3px;          
+  color: black;
+  transition: opacity 0.4s;
+}
+
+.link:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.link:active {
+    opacity: 0.5;
+}
