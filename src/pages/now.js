@@ -7,6 +7,7 @@ import BlackBarDivider from '../components/BlackBarDivider'
 const NowPage = () => {
   return (
     <Layout pageTitle showTitle={false}>
+      
       <div>
         <h1>Now</h1>
         <p>I'm currently living in Pittsburgh, working at <a href="https://www.mbakerintl.com" target="_blank" rel="noopener noreferrer">Michael Baker International</a> as a Bridge Software Systems Developer.
