@@ -7,13 +7,13 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: stretch
 }
 
 .blog-container{
     width: 30%;
     margin: 10px;
     flex: 0 0 300px;
-
 }
 
 .blog-button {
@@ -21,6 +21,8 @@ body{
     background-color: white;
     cursor: pointer;
     transition: opacity 0.15s;
+    text-decoration: none;   /* remove underline */
+    color: inherit;          /* match text color */
 }
 
 .blog-button:hover {

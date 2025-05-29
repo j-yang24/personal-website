@@ -4,7 +4,8 @@
   transition: opacity 0.15s;
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 5px;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
-  filter: brightness(0) invert(20%) saturate(100%);
+  width: 24px;
+  height: 24px;
+  filter: invert(20%) saturate(100%);
 }

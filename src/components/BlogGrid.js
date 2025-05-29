@@ -5,6 +5,7 @@ import bridgeImage from '../images/manhattan-bridge.png'
 import trainImage from '../images/southwest-train.jpg'
 import rianoImage from '../images/riano2.jpg'
 import darkImage from '../images/dark.jpg'
+import farmImage from '../images/farm.jpg'
 import "./blogCard.css";
 
 const blogPosts = [
@@ -13,12 +14,14 @@ const blogPosts = [
         title: "Death isn't the only goodbye in this life",
         summary: "A reflection on my college experience",
         date: "August 20th, 2025",
+        slug: "02-death-isnt-the-only-goodbye"
     },
     {
         imageSrc: trainImage,
         title: "West by Southwest",
         summary: "Traveling to San Franscisco by Train",
         date: "June 16th, 2025",
+        slug: "01-west-by-southwest"
     },
 
     {
@@ -26,6 +29,7 @@ const blogPosts = [
         title: "Blog Post 0",
         summary: "An introduction to my blog",
         date: "May 31st, 2025",
+        slug: "00-blog-intro"
     },
 ];
 
@@ -38,6 +42,7 @@ const BlogGrid = () => (
                 title={post.title}
                 summary={post.summary}
                 date={post.date}
+                slug={post.slug}
             />
         ))}
     </div>

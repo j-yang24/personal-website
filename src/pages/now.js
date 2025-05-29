@@ -1,6 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import IconLinks from '../components/IconLinks';
+import BlackBarDivider from '../components/BlackBarDivider'
 
 const NowPage = () => {
   return (
@@ -14,8 +16,12 @@ const NowPage = () => {
         <br></br>
         <p><i>Last updated on May 31st, 2025.</i></p>
       </div>
+      
+      <BlackBarDivider />
+      <IconLinks />
+      <footer align="center">&#169; 2025 Johnson Yang</footer>
     </Layout>
-    
+
   )
 }
 
