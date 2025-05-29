@@ -3,7 +3,6 @@ body{
 }
 
 .blog-grid{
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,6 +12,8 @@ body{
 .blog-container{
     width: 30%;
     margin: 10px;
+    flex: 0 0 300px;
+
 }
 
 .blog-button {
@@ -41,14 +42,11 @@ body{
     font-size: 20px;
     font-weight: 600;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .blog-summary{
     font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-weight: 400;
     text-align: left;
 }
@@ -67,7 +65,7 @@ body{
     font-size: 0.8rem;
     font-weight: 550;
     padding: 3px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .blog-image-container {
