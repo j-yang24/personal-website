@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
 import { Link } from 'gatsby';
 
 const BlogCard = ({ imageSrc, title, summary, date, slug }) => (

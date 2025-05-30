@@ -3,9 +3,6 @@ import BlogCard from "./BlogCard";
 import cathyImage from '../images/cathy.jpg'
 import bridgeImage from '../images/manhattan-bridge.png'
 import trainImage from '../images/southwest-train.jpg'
-import rianoImage from '../images/riano2.jpg'
-import darkImage from '../images/dark.jpg'
-import farmImage from '../images/farm.jpg'
 import "./blogCard.css";
 
 const blogPosts = [
