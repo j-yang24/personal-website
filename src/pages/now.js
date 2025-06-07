@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import IconLinks from '../components/IconLinks';
+import Footer from '../components/Footer';
 import BlackBarDivider from '../components/BlackBarDivider'
 import * as styles from '../styles/now.module.css';
 
@@ -28,8 +28,7 @@ const NowPage = () => {
       </div>
 
       <BlackBarDivider />
-      <IconLinks />
-      <footer align="center">&#169; 2025 Johnson Yang</footer>
+      <Footer />
     </Layout>
   )
 }

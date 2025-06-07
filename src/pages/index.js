@@ -3,14 +3,15 @@ import Layout from '../components/layout'
 import BlackBarDivider from '../components/BlackBarDivider'
 import Seo from '../components/seo'
 import BlogGrid from '../components/BlogGrid';
-import IconLinks from '../components/IconLinks';
+import Footer from '../components/Footer';
+import * as styles from '../styles/index.module.css';
 
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="a blog by Johnson Yang">
 
-      <p align="justify">
+      <p className={styles.paragraph}>
         I was born in Manhattan and spent my early childhood with my grandparents.
         At seven, I moved to Emmaus to live with my parents, where I helped out in the family restaurant after school.
         After high school, I attended the University of Pittsburgh to study civil engineering.
@@ -21,8 +22,7 @@ const IndexPage = () => {
       <BlogGrid />
 
       <BlackBarDivider />
-      <IconLinks />
-      <footer align="center">&#169; 2025 Johnson Yang</footer>
+      <Footer />
     </Layout>
   )
 }

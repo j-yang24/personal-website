@@ -1,0 +1,59 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.footerLeft {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  width: 300px;
+  color: rgba(206, 206, 206, 0.761); 
+}
+
+.footerCenter {
+  text-align: center;
+  color: black;
+}
+
+.footerRight {
+  text-align: right;
+}
+
+.externalLinks {
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.buttonsRow {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.iconButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.5px;
+  text-decoration: none;
+}
+
+.iconButton:hover {
+  filter: brightness(0) saturate(100%);
+}
+
+.iconButton:active {
+  opacity: 0.5;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  filter: invert(50%) saturate(100%);
+}
