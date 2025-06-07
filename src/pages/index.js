@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import BlackBarDivider from '../components/BlackBarDivider'
+import TopDivider from '../components/TopDivider'
 import Seo from '../components/seo'
 import BlogGrid from '../components/BlogGrid';
 import Footer from '../components/Footer';
@@ -15,9 +16,9 @@ const IndexPage = () => {
         I was born in Manhattan and spent my early childhood with my grandparents.
         At seven, I moved to Emmaus to live with my parents, where I helped out in the family restaurant after school.
         After high school, I attended the University of Pittsburgh to study civil engineering.
-        I now reside in Pittsburgh.
+        Now, I'm currently living in Pittsburgh.
       </p>
-      <BlackBarDivider />
+      <TopDivider />
 
       <BlogGrid />
 

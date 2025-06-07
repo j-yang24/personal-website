@@ -8,12 +8,13 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerLeft}>
-        Built with Gatsby, icons by Icons8, deployed on Github Pages.
+        Built with {' '}<a className={styles.link} href="https://www.gatsbyjs.com/" target="_blank" rel="noopener noreferrer">Gatsby</a>
+        <div>Icons by {' '} <a className={styles.link} href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</a></div>
+        <div>Deployed with <a className={styles.link} href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare</a></div>
       </div>
 
       <div className={styles.footerCenter}>
-        Subscribe Here
-        <div>© 2025 Johnson Yang</div>
+        <div>&#169; 2025 Johnson Yang</div>
       </div>
 
       <div className={styles.footerRight}>

@@ -10,7 +10,7 @@ module.exports = {
       options: {
         name: `jytimes365`,
         short_name: `jy365`,
-        icon: `src/images/favicon.png`,
+        icon: `src/images/favicon.svg`,
       },
     },
     "gatsby-plugin-react-helmet", 
