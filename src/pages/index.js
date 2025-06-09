@@ -1,28 +1,48 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import BlackBarDivider from '../components/BlackBarDivider'
+import TopDivider from '../components/TopDivider'
 import Seo from '../components/seo'
 import BlogGrid from '../components/BlogGrid';
-import IconLinks from '../components/IconLinks';
+import Footer from '../components/Footer';
+import * as styles from '../styles/index.module.css';
 
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="a blog by Johnson Yang">
 
-      <p align="justify">
-        I was born in Manhattan and spent my early childhood with my grandparents.
-        At seven, I moved to Emmaus to live with my parents, where I helped out in the family restaurant after school.
-        After high school, I attended the University of Pittsburgh to study civil engineering.
-        I now reside in Pittsburgh.
+      <div className={styles.headerRow}>
+        <div>
+          <p className={styles.siteTitle}>jytimes</p>
+          <p className={styles.heading}>a blog by Johnson Yang</p>
+        </div>
+        <div className={styles.aboutBox}>
+          <p className={styles.aboutText}>
+            Reflections of my life, interests, or whatever I'm working on. 
+            I'd like to write an autobiography before I die so I think this is a good start.
+            
+          </p>
+          <br></br>
+          <p className={styles.aboutText}>Feel free to reach out to me at joy36@pitt.edu&mdash; whether you'd like to 
+            {' '}<a className={styles.link} href="https://www.linkedin.com/in/johnsony326/" target="_blank" rel="noopener noreferrer">connect</a>,
+            collaborate, or just say hello.</p>
+        </div>
+      </div>
+
+      <p className={styles.paragraph}>
+        I was born in Manhattan, where I spent my early childhood with my grandparents.
+        When I was seven, I moved to Emmaus to live with my parents&mdash; helping out in the family restaurant after school.
+        After high school, I attended the University of Pittsburgh and recently graduated with a B.S. in Civil Engineering. {' '}
+        I currently <Link className={styles.link} to="/now">reside</Link>  in Pittsburgh.
       </p>
-      <BlackBarDivider />
+      <TopDivider />
 
       <BlogGrid />
 
       <BlackBarDivider />
-      <IconLinks />
-      <footer align="center">&#169; 2025 Johnson Yang</footer>
+      <Footer />
     </Layout>
   )
 }

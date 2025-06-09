@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "jytimes365",
+    title: "jytimes",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -10,7 +10,7 @@ module.exports = {
       options: {
         name: `jytimes365`,
         short_name: `jy365`,
-        icon: `src/images/favicon.png`,
+        icon: `src/images/favicon.svg`,
       },
     },
     "gatsby-plugin-react-helmet", 

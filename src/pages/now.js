@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import IconLinks from '../components/IconLinks';
+import Footer from '../components/Footer';
 import BlackBarDivider from '../components/BlackBarDivider'
 import * as styles from '../styles/now.module.css';
 
@@ -24,12 +24,11 @@ const NowPage = () => {
           </a>.
         </p>
         <br />
-        <p className={styles.update}>Last updated on May 31st, 2025.</p>
+        <p className={styles.update}>Last updated on June 2nd, 2025.</p>
       </div>
 
       <BlackBarDivider />
-      <IconLinks />
-      <footer align="center">&#169; 2025 Johnson Yang</footer>
+      <Footer />
     </Layout>
   )
 }
