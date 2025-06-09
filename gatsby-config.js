@@ -13,6 +13,5 @@ module.exports = {
         icon: `src/images/favicon.svg`,
       },
     },
-    "gatsby-plugin-react-helmet", 
   ],
 }
