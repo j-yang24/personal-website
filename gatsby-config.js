@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "jytimes365",
+    title: "jytimes",
   },
   plugins: [
     "gatsby-plugin-image",

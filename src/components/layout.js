@@ -36,8 +36,8 @@ const Layout = ({ pageTitle, children, showTitle = true }) => {
           </li>
         </ul>
       </nav>
-      {showTitle && <header className={siteTitle}>{data.site.siteMetadata.title}</header>}
-      <h1 className={heading}>{pageTitle}</h1>
+      {/*showTitle && <header className={siteTitle}>{data.site.siteMetadata.title}</header>*/}
+      {/*<h1 className={heading}>{pageTitle}</h1>*/}
       <main>
         {children}
       </main>

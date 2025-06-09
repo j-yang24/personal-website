@@ -1,28 +1,73 @@
 .paragraph {
-  text-align: justify;
+  text-align: left;
   font-size: 18px;
   line-height: 1.5;
-}
-
-.update {
-  font-style: italic;
-  color: black;
-  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .link {
-  text-decoration: underline;          
-  text-decoration-thickness: 2px;      
-  text-underline-offset: 4px;          
+  text-decoration: none;    
+  font-weight: 600;        
   color: black;
   transition: opacity 0.4s;
 }
 
 .link:hover {
-  opacity: 0.7;
-  text-decoration: none;
+  opacity: 0.7; 
 }
 
 .link:active {
     opacity: 0.5;
+}
+
+
+.site-title {
+  margin-top: 0rem;
+  font-size: 3.5rem;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: left; 
+  margin-bottom: 0px;
+}
+
+.heading {
+  color: gray;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: left;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+   flex-wrap: wrap;
+}
+
+.aboutBox {
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 720px;
+  
+  border-left: 8px solid black;
+}
+
+.aboutText {
+  color: black;
+  margin: 0; /* Optional: removes default <p> spacing */
+  font-style: italic;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.closingTag{
+    font-style: italic;
+    margin: 0;
 }

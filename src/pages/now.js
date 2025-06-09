@@ -24,7 +24,7 @@ const NowPage = () => {
           </a>.
         </p>
         <br />
-        <p className={styles.update}>Last updated on May 31st, 2025.</p>
+        <p className={styles.update}>Last updated on June 2nd, 2025.</p>
       </div>
 
       <BlackBarDivider />

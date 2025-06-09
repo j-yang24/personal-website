@@ -13,6 +13,7 @@ body{
 .blog-container{
     width: 30%;
     margin: 10px;
+    margin-bottom: 20px;
     flex: 0 0 300px;
 }
 
@@ -20,13 +21,13 @@ body{
     border: none;
     background-color: white;
     cursor: pointer;
-    transition: opacity 0.15s;
+    transition: opacity 0.2s;
     text-decoration: none;   /* remove underline */
-    color: inherit;          /* match text color */
+    color: black;          /* match text color */
 }
 
 .blog-button:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .blog-button:active {
@@ -41,7 +42,7 @@ body{
 }
 
 .blog-header{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: left;
     margin-bottom: 2px;
@@ -49,7 +50,7 @@ body{
 
 .blog-summary{
     font-size: 14px;
-    font-weight: 400;
+    color: gray;
     text-align: left;
 }
 
@@ -58,7 +59,7 @@ body{
 }
 
 .blog-date{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     position: absolute;
     right: 4px;
