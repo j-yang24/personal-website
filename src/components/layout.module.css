@@ -1,29 +1,7 @@
-
-.site-title {
-  margin-top: 0rem;
-  font-size: 3.5rem;
-  color: black;
-  font-weight: 700;
-  display: flex;
-  justify-content: left; 
-}
-
-
 .container {
   margin: auto;
   max-width: 60rem;
   font-family: Sans-serif;
-}
-
-
-.heading {
-  color: gray;
-  font-weight: 400;
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: left;
 }
 
 .nav-links {
@@ -67,4 +45,10 @@ nav {
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
 }

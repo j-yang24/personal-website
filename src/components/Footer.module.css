@@ -74,3 +74,47 @@
 .link:active {
     opacity: 0.5;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr; /* stack columns vertically */
+    text-align: center;
+    gap: 20px;
+    padding: 0px;
+  }
+
+  .footerLeft,
+  .footerCenter,
+  .footerRight {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footerLeft {
+    order: 1;
+  }
+
+  .footerRight {
+    order: 2;
+  }
+
+  .footerCenter {
+    order: 3;
+  }
+
+  .buttonsRow {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .externalLinks {
+    font-size: 12px;
+    text-align: center;
+  }
+}

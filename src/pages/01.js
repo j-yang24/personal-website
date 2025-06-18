@@ -8,6 +8,6 @@ const BlogIntroPage = () => (
   </Layout>
 );
 
-export const Head = () => <Seo title="b1" />;
+export const Head = () => <Seo title="b1 " />;
 
 export default BlogIntroPage;

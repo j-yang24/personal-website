@@ -20,9 +20,7 @@ const IndexPage = () => {
         </div>
         <div className={styles.aboutBox}>
           <p className={styles.aboutText}>
-            Reflections of my life, interests, or whatever I'm working on. 
-            I'd like to write an autobiography before I die so I think this is a good start.
-            
+            Reflections of my life&mdash; I'd like to write an autobiography before I die so I think this is a good start.
           </p>
           <br></br>
           <p className={styles.aboutText}>Feel free to reach out to me at joy36@pitt.edu&mdash; whether you'd like to 
@@ -35,7 +33,7 @@ const IndexPage = () => {
         I was born in Manhattan, where I spent my early childhood with my grandparents.
         When I was seven, I moved to Emmaus to live with my parents&mdash; helping out in the family restaurant after school.
         After high school, I attended the University of Pittsburgh and recently graduated with a B.S. in Civil Engineering. {' '}
-        I <Link className={styles.link} to="/now">currently</Link> reside in Pittsburgh.
+        I currently reside in <Link className={styles.link} to="/now">Pittsburgh</Link>.
       </p>
       <TopDivider />
 
