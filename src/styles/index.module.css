@@ -35,7 +35,7 @@
 .heading {
   color: gray;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0.5rem 0;
   margin-bottom: 20px;
   display: flex;
@@ -68,7 +68,8 @@
 
 
 @media (max-width: 600px) {
-  .headerRow,
+  .heading,
+  .headerRow
   .link {
     justify-content: center;
   }

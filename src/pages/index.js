@@ -19,12 +19,10 @@ const IndexPage = () => {
         </div>
         <div className={styles.aboutBox}>
           <p className={styles.aboutText}>
-            Reflections of my life&mdash; I'd like to write an autobiography before I die so I guess this is a good start.
+            Reflections of my life&mdash; I'd like to write an autobiography before I die so I think this is a good start.
           </p>
           <br></br>
-          <p className={styles.aboutText}>Feel free to reach out to me at joy36@pitt.edu&mdash; whether you'd like to 
-            {' '}<a className={styles.link} href="https://www.linkedin.com/in/johnsony326/" target="_blank" rel="noopener noreferrer">connect</a>,
-            collaborate, or just say hello.</p>
+          <p className={styles.aboutText}>Feel free to reach out to me at johnsonyang@pitt.edu</p>
         </div>
       </div>
 

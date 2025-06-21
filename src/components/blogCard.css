@@ -13,7 +13,7 @@ body{
 .blog-container{
     width: 30%;
     margin: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     flex: 0 0 300px;
 }
 
@@ -45,7 +45,6 @@ body{
     font-size: 18px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 2px;
 }
 
 .blog-summary{
