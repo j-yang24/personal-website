@@ -6,7 +6,7 @@
 
 .nav-links {
   font-size: 1.4rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   display: flex;
   list-style: none;
   padding: 0;
@@ -51,4 +51,9 @@ nav {
   nav {
     justify-content: center;
   }
+
+  .container{
+    margin: 10px;
+  }
+
 }

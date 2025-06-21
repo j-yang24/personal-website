@@ -1,8 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import BlackBarDivider from '../components/BlackBarDivider'
-import TopDivider from '../components/TopDivider'
+import Divider from '../components/Divider'
 import Seo from '../components/seo'
 import BlogGrid from '../components/BlogGrid';
 import Footer from '../components/Footer';
@@ -20,7 +19,7 @@ const IndexPage = () => {
         </div>
         <div className={styles.aboutBox}>
           <p className={styles.aboutText}>
-            Reflections of my life&mdash; I'd like to write an autobiography before I die so I think this is a good start.
+            Reflections of my life&mdash; I'd like to write an autobiography before I die so I guess this is a good start.
           </p>
           <br></br>
           <p className={styles.aboutText}>Feel free to reach out to me at joy36@pitt.edu&mdash; whether you'd like to 
@@ -35,11 +34,11 @@ const IndexPage = () => {
         After high school, I attended the University of Pittsburgh and recently graduated with a B.S. in Civil Engineering. {' '}
         I currently reside in <Link className={styles.link} to="/now">Pittsburgh</Link>.
       </p>
-      <TopDivider />
+      <Divider />
 
       <BlogGrid />
 
-      <BlackBarDivider />
+      <Divider />
       <Footer />
     </Layout>
   )

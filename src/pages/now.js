@@ -2,8 +2,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import Footer from '../components/Footer';
-import BlackBarDivider from '../components/BlackBarDivider'
 import * as styles from '../styles/now.module.css';
+import Divider from '../components/Divider'
 
 const NowPage = () => {
   return (
@@ -26,8 +26,7 @@ const NowPage = () => {
         <br />
         <p className={styles.update}>Last update - June 2nd, 2025.</p>
       </div>
-
-      <BlackBarDivider />
+      <Divider />
       <Footer />
     </Layout>
   )
