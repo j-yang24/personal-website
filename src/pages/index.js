@@ -27,7 +27,7 @@ const IndexPage = () => {
       </div>
 
       <p className={styles.paragraph}>
-        I was born in Manhattan, where I spent my early childhood with my grandparents.
+        I grew up in Manhattan, where I spent my early childhood with my grandparents.
         When I was seven, I moved to Emmaus to live with my parents&mdash; helping out in the family restaurant after school.
         After high school, I attended the University of Pittsburgh and recently graduated with a B.S. in Civil Engineering. {' '}
         I currently reside in <Link className={styles.link} to="/now">Pittsburgh</Link>.
