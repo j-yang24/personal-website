@@ -26,7 +26,7 @@ const blogPosts = [
         title: "Blog Post 0",
         summary: "An introduction to my blog",
         date: "May 31st, 2025",
-        slug: "00"
+        slug: "0"
     },
 ];
 

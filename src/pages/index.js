@@ -22,14 +22,14 @@ const IndexPage = () => {
             Reflections of my life&mdash; I'd like to write an autobiography before I die so I think this is a good start.
           </p>
           <br></br>
-          <p className={styles.aboutText}>Feel free to reach out to me at johnsonyang@pitt.edu</p>
+          <p className={styles.aboutText}>Feel free to reach out to me at johnsonyang[at]pitt.edu</p>
         </div>
       </div>
 
       <p className={styles.paragraph}>
         I grew up in Manhattan, where I spent my early childhood with my grandparents.
-        When I was seven, I moved to Emmaus to live with my parents&mdash; helping out in the family restaurant after school.
-        After high school, I attended the University of Pittsburgh and recently graduated with a B.S. in Civil Engineering. {' '}
+        When I was seven, I moved to the suburbs of Pennsylvania to live with my parents&mdash; helping out in the family restaurant after school.
+        After high school, I attended the University of Pittsburgh, majoring in Civil Engineering. {' '}
         I currently reside in <Link className={styles.link} to="/now">Pittsburgh</Link>.
       </p>
       <Divider />
