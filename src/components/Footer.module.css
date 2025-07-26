@@ -8,7 +8,7 @@
 
 .footerLeft {
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   color: gray;
   margin-top: 5px;
@@ -17,7 +17,7 @@
 .footerCenter {
   text-align: center;
   color: gray;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 50px; 
@@ -29,7 +29,7 @@
 }
 
 .externalLinks {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   color: gray;
   margin-bottom: 5px;

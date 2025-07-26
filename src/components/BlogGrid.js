@@ -11,14 +11,14 @@ const blogPosts = [
         title: "Death isn't the only goodbye in this life",
         summary: "A reflection on my college experience",
         date: "August 20th, 2025",
-        slug: "02"
+        slug: "college"
     },
     {
         imageSrc: trainImage,
         title: "West by Southwest",
         summary: "Traveling to San Franscisco by Train",
         date: "June 16th, 2025",
-        slug: "01"
+        slug: "west"
     },
 
     {
