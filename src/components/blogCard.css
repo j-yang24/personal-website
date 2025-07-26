@@ -38,7 +38,7 @@ body{
     width: 100%;
     height: 200px; /* or adjust to your preferred height */
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 .blog-header{
@@ -66,7 +66,7 @@ body{
     font-size: 0.8rem;
     font-weight: 550;
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 
 .blog-image-container {

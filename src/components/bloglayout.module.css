@@ -33,6 +33,23 @@ nav {
   justify-content: flex-end; /* Align to the right */
 }
 
+.img{
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+  height: auto;
+  display: block;
+  object-fit: contain; 
+  text-align: center;
+}
+
+.caption{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+  font-style: italic;
+}
+
 
 .paragraph{
     font-size: 18px;
@@ -71,5 +88,16 @@ nav {
 .container{
     margin: 10px;
   }
+
+
+  .img{
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100%; 
+  height: auto;
+  display: block;
+  object-fit: contain; 
+  text-align: center;
+}
 
 }

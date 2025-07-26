@@ -3,7 +3,7 @@ import React from 'react'
 const TopDivider = () => {
   return (
     <div style={{ margin: '5px 0' }}>
-      <div style={{ height: '4px', backgroundColor: 'rgba(0, 0, 0, 0.1)', marginBottom: '2px' }}></div>
+      <div style={{ height: '8px', backgroundColor: 'rgba(0, 0, 0, 0.1)', marginBottom: '2px' }}></div>
     </div>
   )
 }
