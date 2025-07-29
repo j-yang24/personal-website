@@ -4,7 +4,7 @@ import Seo from '../components/seo'
 import Footer from '../components/Footer';
 import Divider from '../components/Divider'
 import * as styles from '../components/bloglayout.module.css'
-import cathyImage from '../images/cathy.jpg'
+import cathyImage from '../images/post3/cathy.jpg'
 
 const BlogPage = () => (
   <BlogLayout pageTitle showTitle={false}>

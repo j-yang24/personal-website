@@ -24,7 +24,7 @@ const Footer = () => {
             href="https://github.com/j-yang24"
             target="_blank"
             rel="noopener noreferrer"
-            className={`${styles.iconButton} ${styles.githubButton}`}
+            className={`${styles.iconButton}`}
           >
             <img src={githubIcon} alt="GitHub" className={styles.icon} />
           </a>
@@ -33,7 +33,7 @@ const Footer = () => {
             href="https://www.goodreads.com/user/show/171833829-johnson-yang"
             target="_blank"
             rel="noopener noreferrer"
-            className={`${styles.iconButton} ${styles.goodreadsButton}`}
+            className={`${styles.iconButton}`}
           >
             <img src={goodreadsIcon} alt="Goodreads" className={styles.icon} />
           </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/johnsony326/"
             target="_blank"
             rel="noopener noreferrer"
-            className={`${styles.iconButton} ${styles.linkedinButton}`}
+            className={`${styles.iconButton}`}
           >
             <img src={linkedinIcon} alt="LinkedIn" className={styles.icon} />
           </a>

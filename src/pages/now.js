@@ -15,7 +15,7 @@ const NowPage = () => {
           <a className={styles.link} href="https://www.mbakerintl.com" target="_blank" rel="noopener noreferrer">
             Michael Baker International
           </a>{' '}
-          as a Software Systems Developer.
+          as a Bridge Software Systems Developer.
         </p>
         <p className={styles.paragraph}>
           I'm also pursuing a Master's Degree in Structural Engineering and Mechanics at the{' '}

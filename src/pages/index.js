@@ -29,8 +29,8 @@ const IndexPage = () => {
       <p className={styles.paragraph}>
         I grew up in Manhattan, where I spent my early childhood with my grandparents.
         When I was seven, I moved to the suburbs of Pennsylvania to live with my parents&mdash; helping out in the family restaurant after school.
-        After high school, I attended the University of Pittsburgh, majoring in Civil Engineering. {' '}
-        I currently reside in <Link className={styles.link} to="/now">Pittsburgh</Link>.
+        After high school, I attended the University of Pittsburgh, where I majored in Civil Engineering. {' '}
+        These days, I live <Link className={styles.link} to="/now"> in Pittsburgh</Link>.
       </p>
       <Divider />
 

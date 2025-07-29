@@ -1,8 +1,8 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import cathyImage from '../images/cathy.jpg'
-import bridgeImage from '../images/manhattan-bridge.png'
-import trainImage from '../images/southwest-train.jpg'
+import bridgeImage from '../images/post1/manhattan-bridge.png'
+import trainImage from '../images/post2/southwest-train.jpg'
+import cathyImage from '../images/post3/cathy.jpg'
 import "./blogCard.css";
 
 const blogPosts = [
