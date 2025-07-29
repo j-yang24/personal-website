@@ -12,6 +12,7 @@
   font-weight: 600;
   color: gray;
   margin-top: 5px;
+  margin-bottom: 70px; 
 }
 
 .footerCenter {
@@ -20,7 +21,6 @@
   font-size: 12px;
   font-weight: 600;
   margin-top: 5px;
-  margin-bottom: 50px; 
 }
 
 .footerRight {
@@ -94,7 +94,6 @@
 
   .footerLeft {
     order: 1;
-    margin-bottom: 20px;
   }
 
   .footerRight {

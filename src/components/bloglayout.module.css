@@ -58,13 +58,12 @@ nav {
 
 .header1{
   font-size: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-weight: 700;
 }
 
 .header2{
   margin-top: 5px;
-  margin-bottom: 5px;
   font-weight: 500;
   color: gray;
 }
@@ -74,6 +73,21 @@ nav {
   margin-bottom: 5px;
   font-weight: 700;
 }
+
+.aboutBox {
+  background-color: #f0f0f0;
+  padding: 12px;
+  border-left: 8px solid black;
+}
+
+.aboutText {
+  color: black;
+  margin: 0px;
+  font-style: italic;
+  font-size: 18px;
+  max-width: 100%;
+}
+
 
 @media (max-width: 600px) {
   nav {
