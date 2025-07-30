@@ -10,14 +10,14 @@ const blogPosts = [
         imageSrc: cathyImage,
         title: "Death isn't the only goodbye in this life",
         summary: "A reflection on my college experience",
-        date: "August 20th, 2025",
+        date: "August 25th, 2025",
         slug: "college"
     },
     {
         imageSrc: trainImage,
         title: "West by Southwest",
         summary: "Traveling to San Franscisco by Train",
-        date: "June 16th, 2025",
+        date: "August 10th, 2025",
         slug: "west"
     },
 
@@ -25,7 +25,7 @@ const blogPosts = [
         imageSrc: bridgeImage,
         title: "Blog Post 0",
         summary: "An introduction to my blog",
-        date: "May 31st, 2025",
+        date: "June 24th, 2025",
         slug: "0"
     },
 ];
