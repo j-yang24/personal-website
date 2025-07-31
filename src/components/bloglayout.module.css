@@ -46,7 +46,7 @@ nav {
 .caption{
   text-align: center;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -74,13 +74,13 @@ nav {
   font-weight: 700;
 }
 
-.aboutBox {
+.quoteBox {
   background-color: #f0f0f0;
   padding: 12px;
   border-left: 8px solid black;
 }
 
-.aboutText {
+.quoteText {
   color: black;
   margin: 0px;
   font-style: italic;

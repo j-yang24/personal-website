@@ -17,8 +17,8 @@ const BlogPage = () => (
 
 
 
-    <div className={styles.aboutBox}>
-      <p className={styles.aboutText}>
+    <div className={styles.quoteBox}>
+      <p className={styles.quoteText}>
         Big things start here.
         
       </p>
@@ -30,7 +30,7 @@ const BlogPage = () => (
 
     <figure>
       <img className={styles.img} src={cathyImage} alt='cathy' />
-      <figcaption className={styles.caption}>This is a test caption</figcaption>
+      <figcaption className={styles.caption}>This is a test caption but how long can this text go? Really far? Like how far?</figcaption>
     </figure>
 
     <Divider />
