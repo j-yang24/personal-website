@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerLeft}>
-        Built with {' '}<a className={styles.link} href="https://www.gatsbyjs.com/" target="_blank" rel="noopener noreferrer">Gatsby</a>
+        Built with {' '}<a className={styles.link} href="https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/" target="_blank" rel="noopener noreferrer">Gatsby</a>
         <div>Icons by {' '} <a className={styles.link} href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</a></div>
         <div>Deployed with <a className={styles.link} href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare</a></div>
       </div>
